@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="main">
+
+        <div id="left">
+            <div id="logo">
+                <img src="logo.png" alt="">
+            </div>
+
+            <div id="heading">
+                <p id="head">Create an Account</p>
+                <p>Enter your information below, and let's start exploring the world together!</p>
+            </div>
+
+            <div id="googleBtn">
+                <button><i class="ri-google-line"></i>Sign up with Google</button>
+            </div>
+
+            <div id="divider">
+                <p>---------- OR ----------</p>
+            </div>
+
+            <div id="creatAcc">
+                <form action="#">
+                    <div id="username">
+                        <label for="name">Name: </label>
+                        <input type="text" id="usrName" name="name" placeholder="Enter Name">
+                        <p id="invalidUsr"></p>
+                    </div>
+
+                    <div id="userpassword">
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" placeholder="Enter Password">
+                        <p id="invalidPass"></p>
+                    </div>
+
+                    <div id="useremail">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email address">
+                        <p id="invalidEmail"></p>
+                    </div>
+
+                    <div id="btn">
+                        <button>Create an Account</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div id="alreadyAcc">
+                <p>Already have an account? <a href="#">Log In</a></p>
+            </div>
+
+        </div>
+
+        <div id="right">
+            <img src="img1.jpg" class="image" id="img1" alt="">
+            <img src="img2.jpg" class="image" id="img2" alt="">
+            <img src="img3.jpg" class="image" id="img3" alt="">
+            <img src="img4.jpg" class="image" id="img4" alt="">
+            <img src="img5.jpg" class="image" id="img5" alt="">
+            <img src="img6.jpg" class="image" id="img6" alt="">
+            <div id="overlay"></div>
+        </div>
+
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

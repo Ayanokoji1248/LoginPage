@@ -1,0 +1,71 @@
+@media (max-width:500px){
+    #left{
+        background-color: white;
+        width: 100vw;
+    }
+
+    #left #logo{
+        padding: 0px;
+        margin: 0;
+    }
+
+    #left #logo img{
+        width: 90px;
+        margin-top: 20px;
+        object-fit:contain;
+    }
+
+    #left #heading p:nth-child(1){
+        font-size: 10vw;
+    }
+    #left #heading p:nth-child(2){
+        font-size: 3vw;
+        width: 80vw;
+    }
+
+    #googleBtn button{
+        width: 80vw;
+        font-size: 3.5vw;
+    }
+
+    form>div>input{
+        width: 80vw;
+        font-size: 3vw;
+    }
+
+    form>#btn>button{
+        padding: 10px;
+        width: 80vw;
+        font-size: 3.5vw;
+    } 
+
+    input::placeholder{
+        font-size: 3.5vw;
+    }
+
+
+    #alreadyAcc{
+        margin-left: 50px;
+    }
+
+    #alreadyAcc p{
+        font-size: 3vw;
+    }
+
+    #invalidPass{
+        min-width: 80vw;
+    }
+
+    #right{
+        display: none;
+    }
+
+    button{
+        cursor: pointer;
+        transition: none;
+    }
+    button:hover{
+        box-shadow:none;
+        transform: none;
+    }
+}
